@@ -3,7 +3,7 @@
  */
 'use strict';
 
-var es = require('EverySome.js');
+var es = require('./EverySome.js');
 
 var goodUsers = [
     { id: 1 },
@@ -11,4 +11,12 @@ var goodUsers = [
     { id: 3 }
 ];
 
-es.checkUserValid(goodUsers);
+var someUsers = [
+    {id: 1},
+    {id: 2},
+    {id: 3},
+    {id: 4},
+    {id: 5},
+];
+
+es(goodUsers);
