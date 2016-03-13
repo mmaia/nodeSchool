@@ -18,5 +18,3 @@ var someUsers = [
     {id: 4},
     {id: 5},
 ];
-
-es(goodUsers);
