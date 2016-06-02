@@ -6,3 +6,6 @@
 var promise = Promise.resolve('PROMISE RESOLVED WITH SHORTCUT');
 
 var reject = Promise.reject(new Error('REJECTING WITH SHORTCUT'));
+
+reject.catch((err) => 'error: ' + error.message);
+
